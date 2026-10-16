@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+    <title>Mandarin Flashcards</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="sidebar">
+        <button id="sidebar-toggle" aria-controls="sidebar-content" aria-expanded="true" aria-label="Collapse groups">←</button>
+
+        <div id="sidebar-content">
+            <h2>Groups</h2>
+            <button id="toggle-groups-button">Select All</button>
+            <div id="groups-container"></div>
+        </div>
+    </div>
+
+
+    <main id="main-content">
+
+        <div id="prompt">
+            <span id="prompt-chinese">美国</span>
+        </div>
+
+        <div id="canvas-container">
+            <canvas id="drawing-area" aria-label="Handwriting practice area"></canvas>
+
+            <div id="canvas-buttons">
+                <button id="sound-button" aria-label="Play pronunciation">🔊</button>
+                <button id="clear-button">Clear</button>
+            </div>
+        </div>
+
+        <button id="reveal-button">
+            Reveal
+        </button>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

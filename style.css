@@ -1,0 +1,397 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+
+    display: flex;
+
+    font-family: Arial, sans-serif;
+
+    background-color: #121212;
+    color: #f5f5f5;
+}
+
+
+/* Sidebar */
+
+#sidebar {
+    width: 250px;
+    padding: 25px;
+
+    background-color: #1a1a1a;
+    border-right: 1px solid #444;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#sidebar h2 {
+    margin-top: 0;
+    color: #ffffff;
+}
+
+#sidebar label {
+    font-size: 18px;
+}
+
+
+/* Groups */
+
+#groups-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#groups-container label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    color: #eeeeee;
+}
+
+#groups-container input {
+    cursor: pointer;
+}
+
+#toggle-groups-button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    background: #292929;
+    color: white;
+    border: 1px solid #444;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* Main section */
+
+#main-content {
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 50px;
+
+    background-color: #121212;
+}
+
+
+/* Prompt */
+
+#prompt {
+    display: flex;
+    width: 80%;
+    min-height: 200px;
+
+    background-color: #1c1c1c;
+    border: 1px solid #444;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 36px;
+    color: #ffffff;
+
+    margin-bottom: 30px;
+}
+
+.prompt-translation {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Drawing area */
+
+#canvas-container {
+    position: relative;
+
+    width: 80%;
+    height: 500px;
+}
+
+#drawing-area {
+    width: 100%;
+    height: 100%;
+
+    /* Blackboard */
+    background-color: #101a16;
+    border: 2px solid #555;
+
+    cursor: crosshair;
+
+    user-select: none;
+    -webkit-user-drag: none;
+    touch-action: none;
+}
+
+
+/* Canvas buttons */
+
+#canvas-buttons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    display: flex;
+    gap: 8px;
+}
+
+#canvas-buttons button {
+    padding: 8px 16px;
+
+    background-color: #292929;
+    color: #ffffff;
+
+    border: 1px solid #555;
+    border-radius: 4px;
+
+    cursor: pointer;
+}
+
+#canvas-buttons button:hover {
+    background-color: #3a3a3a;
+}
+
+
+/* Reveal button */
+
+#reveal-button {
+    width: 80%;
+    height: 100px;
+
+    margin-top: 30px;
+    padding: 12px 40px;
+
+    background-color: #292929;
+    color: #ffffff;
+
+    border: 1px solid #555;
+    border-radius: 4px;
+
+    font-size: 20px;
+
+    cursor: pointer;
+}
+
+#reveal-button:hover {
+    background-color: #3a3a3a;
+}
+
+#sidebar {
+    width: 250px;
+    transition: width 0.2s ease;
+}
+
+#sidebar.collapsed {
+    width: 40px;
+}
+
+#sidebar.collapsed #sidebar-content {
+    display: none;
+}
+
+#sidebar-toggle {
+    width: 36px;
+    height: 36px;
+    background-color: #292929;
+    color: white;
+    border: 1px solid #444;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 10px;
+}
+
+#sidebar-toggle:hover {
+    background-color: #3a3a3a;
+}
+
+#sidebar-toggle:active {
+    background-color: #222;
+}
+
+#drawing-area {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 768px), (max-width: 1024px) and (orientation: landscape) and (hover: none) and (pointer: coarse) {
+    body {
+        height: auto;
+        min-height: 100vh;
+        min-height: 100svh;
+        flex-direction: column;
+    }
+
+    #sidebar,
+    #sidebar.collapsed {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        flex: none;
+        width: 100%;
+        padding: max(8px, env(safe-area-inset-top)) max(16px, env(safe-area-inset-right)) 8px max(16px, env(safe-area-inset-left));
+        gap: 0;
+        border-right: 0;
+        border-bottom: 1px solid #444;
+        transition: none;
+    }
+
+    #sidebar-toggle {
+        width: 100%;
+        min-height: 44px;
+        height: auto;
+        margin: 0;
+        padding: 10px 14px;
+        justify-content: space-between;
+        font-size: 16px;
+        touch-action: manipulation;
+    }
+
+    #sidebar-content {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        max-height: 70vh;
+        max-height: 70svh;
+        overflow-y: auto;
+        overscroll-behavior: contain;
+        padding: 16px max(16px, env(safe-area-inset-right)) 20px max(16px, env(safe-area-inset-left));
+        background-color: #1a1a1a;
+        border-bottom: 1px solid #555;
+        box-shadow: 0 12px 24px #0008;
+    }
+
+    #sidebar h2 {
+        margin-bottom: 12px;
+        font-size: 20px;
+    }
+
+    #toggle-groups-button {
+        min-height: 44px;
+        margin-bottom: 12px;
+        font-size: 16px;
+        touch-action: manipulation;
+    }
+
+    #groups-container {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 8px;
+    }
+
+    #groups-container label {
+        min-height: 44px;
+        padding: 10px;
+        border: 1px solid #444;
+        border-radius: 6px;
+        font-size: 16px;
+        overflow-wrap: anywhere;
+        cursor: pointer;
+        touch-action: manipulation;
+    }
+
+    #groups-container label:has(input:checked) {
+        background-color: #28372f;
+        border-color: #738d7e;
+    }
+
+    #groups-container input {
+        flex: none;
+        width: 20px;
+        height: 20px;
+        margin: 0;
+        accent-color: #8cbaa0;
+    }
+
+    #main-content {
+        flex: 1;
+        width: 100%;
+        min-width: 0;
+        gap: 14px;
+        padding: 16px max(16px, env(safe-area-inset-right)) max(16px, env(safe-area-inset-bottom)) max(16px, env(safe-area-inset-left));
+    }
+
+    #prompt {
+        flex: none;
+        width: 100%;
+        min-height: 144px;
+        margin: 0;
+        padding: 16px;
+        border-radius: 8px;
+        font-size: clamp(24px, 6vw, 32px);
+        line-height: 1.35;
+        text-align: center;
+        overflow-wrap: anywhere;
+    }
+
+    #prompt > div {
+        min-width: 0;
+        max-width: 100%;
+    }
+
+    #prompt > div > div + div {
+        margin-top: 6px;
+    }
+
+    #canvas-container {
+        flex: none;
+        width: 100%;
+        height: clamp(200px, calc(100vh - 340px), 440px);
+        height: clamp(200px, calc(100svh - 340px), 440px);
+    }
+
+    #drawing-area {
+        display: block;
+        border-radius: 8px;
+    }
+
+    #canvas-buttons {
+        top: 8px;
+        right: 8px;
+        gap: 8px;
+    }
+
+    #canvas-buttons button {
+        min-width: 44px;
+        min-height: 44px;
+        padding: 10px 14px;
+        font-size: 16px;
+        touch-action: manipulation;
+    }
+
+    #reveal-button {
+        flex: none;
+        width: 100%;
+        min-height: 56px;
+        height: auto;
+        margin: 0;
+        padding: 14px 20px;
+        border-radius: 8px;
+        touch-action: manipulation;
+    }
+
+    button:focus-visible,
+    input:focus-visible {
+        outline: 2px solid #a4cfb6;
+        outline-offset: 3px;
+    }
+}
