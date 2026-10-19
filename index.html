@@ -16,6 +16,13 @@
         <button id="sidebar-toggle" aria-controls="sidebar-content" aria-expanded="true" aria-label="Collapse groups">←</button>
 
         <div id="sidebar-content">
+            <fieldset id="study-mode">
+                <legend>Prompt mode</legend>
+                <label><input type="radio" name="prompt-mode" value="chinese"> Characters</label>
+                <label><input type="radio" name="prompt-mode" value="translation"> English + Pinyin</label>
+                <label><input type="radio" name="prompt-mode" value="mixed" checked> Mixed</label>
+                <p>Mixed randomly chooses one side per card.</p>
+            </fieldset>
             <h2>Groups</h2>
             <button id="toggle-groups-button">Select All</button>
             <div id="groups-container"></div>

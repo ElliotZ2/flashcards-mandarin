@@ -34,6 +34,7 @@ function populateGroups() {
 
 let randomWord;
 let recentlyChosenWords = [];
+let promptMode = "mixed";
 
 function chooseRandomWord() {
     const groupsContainer = document.getElementById("groups-container");
@@ -92,7 +93,9 @@ function displayPrompt() {
         return;
     }
 
-    const promptType = Math.floor(Math.random() * 2);
+    const promptType = promptMode === "mixed"
+        ? Math.floor(Math.random() * 2)
+        : promptMode === "chinese" ? 0 : 1;
 
     if (promptType === 0) {
         prompt.textContent = randomWord.chinese;
@@ -330,10 +333,10 @@ function setSidebarCollapsed(collapsed) {
     sidebar.classList.toggle("collapsed", collapsed);
     sidebarToggle.setAttribute("aria-expanded", String(!collapsed));
     sidebarToggle.setAttribute("aria-label", mobileLayout.matches
-        ? (collapsed ? "Show groups" : "Hide groups")
+        ? (collapsed ? "Show study options" : "Hide study options")
         : (collapsed ? "Expand groups" : "Collapse groups"));
     sidebarToggle.textContent = mobileLayout.matches
-        ? (collapsed ? "Groups ▾" : "Groups ▴")
+        ? (collapsed ? "Study options ▾" : "Study options ▴")
         : (collapsed ? "→" : "←");
 }
 
@@ -387,6 +390,21 @@ document.getElementById("groups-container").addEventListener("change", () => {
 });
 
 sidebar.addEventListener("transitionend", resizeCanvas);
+
+document.getElementById("study-mode").addEventListener("change", (event) => {
+    if (event.target.name !== "prompt-mode") {
+        return;
+    }
+
+    promptMode = event.target.value;
+    if (wordsData && !randomWord) {
+        chooseRandomWord();
+    }
+    displayPrompt();
+    revealButton.textContent = "Reveal";
+    isRevealed = false;
+    clearCanvas();
+});
 
 //TODO: keep track of words that you dont know
 //dont allow too many of these unknown words to stack up

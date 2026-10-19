@@ -232,6 +232,62 @@ body {
     height: 100%;
 }
 
+#sidebar-content {
+    min-height: 0;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #555 #1a1a1a;
+}
+
+#study-mode {
+    min-width: 0;
+    margin: 0 0 24px;
+    padding: 0;
+    border: 0;
+}
+
+#study-mode legend {
+    margin-bottom: 8px;
+    padding: 0;
+    font-size: 15px;
+    font-weight: bold;
+    color: #eee;
+}
+
+#study-mode label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 36px;
+    margin-bottom: 6px;
+    padding: 8px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    touch-action: manipulation;
+}
+
+#study-mode label:has(input:checked) {
+    background-color: #292929;
+    border-color: #888;
+}
+
+#study-mode input {
+    flex: none;
+    width: 16px;
+    height: 16px;
+    margin: 0;
+    accent-color: #a4cfb6;
+}
+
+#study-mode p {
+    margin: 8px 0 0;
+    color: #aaa;
+    font-size: 12px;
+    line-height: 1.4;
+}
+
 @media (max-width: 768px), (max-width: 1024px) and (orientation: landscape) and (hover: none) and (pointer: coarse) {
     body {
         height: auto;
@@ -283,6 +339,11 @@ body {
     #sidebar h2 {
         margin-bottom: 12px;
         font-size: 20px;
+    }
+
+    #study-mode label {
+        min-height: 44px;
+        font-size: 16px;
     }
 
     #toggle-groups-button {
