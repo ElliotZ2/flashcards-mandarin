@@ -1569,6 +1569,146 @@
           "english": "other"
         }
       ]
+    },
+    {
+      "name": "L5D1",
+      "words": [
+        {
+          "chinese": "呀",
+          "pinyin": "ya",
+          "english": "interjectory particle used to soften a question"
+        },
+        {
+          "chinese": "进",
+          "pinyin": "jìn",
+          "english": "to enter"
+        },
+        {
+          "chinese": "快",
+          "pinyin": "kuài",
+          "english": "quick; fast"
+        },
+        {
+          "chinese": "进来",
+          "pinyin": "jìn lai",
+          "english": "to come in"
+        },
+        {
+          "chinese": "来",
+          "pinyin": "lái",
+          "english": "to come"
+        },
+        {
+          "chinese": "介绍",
+          "pinyin": "jièshào",
+          "english": "to introduce"
+        },
+        {
+          "chinese": "一下",
+          "pinyin": "yí xià",
+          "english": "once; a bit"
+        },
+        {
+          "chinese": "高兴",
+          "pinyin": "gāoxìng",
+          "english": "happy"
+        },
+        {
+          "chinese": "漂亮",
+          "pinyin": "piàoliang",
+          "english": "beautiful"
+        },
+        {
+          "chinese": "坐",
+          "pinyin": "zuò",
+          "english": "to sit"
+        },
+        {
+          "chinese": "在",
+          "pinyin": "zài",
+          "english": "at; in; on"
+        },
+        {
+          "chinese": "哪儿",
+          "pinyin": "nǎr",
+          "english": "where"
+        },
+        {
+          "chinese": "学校",
+          "pinyin": "xuéxiào",
+          "english": "school"
+        },
+        {
+          "chinese": "喝",
+          "pinyin": "hē",
+          "english": "to drink"
+        },
+        {
+          "chinese": "点（儿）",
+          "pinyin": "diǎn(r)",
+          "english": "a little; a bit; some"
+        },
+        {
+          "chinese": "茶",
+          "pinyin": "chá",
+          "english": "tea"
+        },
+        {
+          "chinese": "咖啡",
+          "pinyin": "kāfēi",
+          "english": "coffee"
+        },
+        {
+          "chinese": "吧",
+          "pinyin": "ba",
+          "english": "a sentence-final particle"
+        },
+        {
+          "chinese": "要",
+          "pinyin": "yào",
+          "english": "to want"
+        },
+        {
+          "chinese": "瓶",
+          "pinyin": "píng",
+          "english": "measure word for bottles; bottle"
+        },
+        {
+          "chinese": "可乐",
+          "pinyin": "kělè",
+          "english": "cola; Coke or Pepsi"
+        },
+        {
+          "chinese": "可以",
+          "pinyin": "kěyǐ",
+          "english": "can; may"
+        },
+        {
+          "chinese": "对不起",
+          "pinyin": "duìbuqǐ",
+          "english": "sorry"
+        },
+        {
+          "chinese": "给",
+          "pinyin": "gěi",
+          "english": "to give"
+        },
+        {
+          "chinese": "杯",
+          "pinyin": "bēi",
+          "english": "cup"
+        },
+        {
+          "chinese": "水",
+          "pinyin": "shuǐ",
+          "english": "water"
+        },
+        {
+          "chinese": "高小音",
+          "pinyin": "Gāo Xiǎoyīn",
+          "english": "a personal name"
+        }
+      ]
     }
   ]
 }
