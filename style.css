@@ -247,20 +247,33 @@ body {
 }
 
 #study-mode legend {
-    margin-bottom: 8px;
+    margin-bottom: 10px;
     padding: 0;
     font-size: 15px;
     font-weight: bold;
-    color: #eee;
+    color: #ddd;
+}
+
+#study-mode .study-mode-options {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 6px;
+}
+
+#study-mode .study-mode-option {
+    display: block;
+    min-width: 0;
 }
 
 #study-mode label {
     display: flex;
     align-items: center;
-    gap: 8px;
-    min-height: 36px;
-    margin-bottom: 6px;
-    padding: 8px;
+    gap: 10px;
+    width: 100%;
+    min-height: 40px;
+    margin: 0;
+    padding: 10px;
+    background-color: #242424;
     border: 1px solid #444;
     border-radius: 5px;
     font-size: 14px;
@@ -268,24 +281,56 @@ body {
     touch-action: manipulation;
 }
 
+#study-mode label:hover {
+    background-color: #303030;
+    border-color: #666;
+}
+
 #study-mode label:has(input:checked) {
-    background-color: #292929;
-    border-color: #888;
+    background-color: #28372f;
+    border-color: #738d7e;
+}
+
+#study-mode label span {
+    min-width: 0;
+    overflow-wrap: anywhere;
 }
 
 #study-mode input {
+    appearance: none;
+    -webkit-appearance: none;
+    display: grid;
+    place-items: center;
     flex: none;
     width: 16px;
     height: 16px;
     margin: 0;
-    accent-color: #a4cfb6;
+    background-color: #121212;
+    border: 1px solid #777;
+    border-radius: 50%;
+    cursor: pointer;
 }
 
-#study-mode p {
-    margin: 8px 0 0;
-    color: #aaa;
-    font-size: 12px;
-    line-height: 1.4;
+#study-mode input::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    background-color: #b9dfc8;
+    border-radius: 50%;
+    transform: scale(0);
+}
+
+#study-mode input:checked {
+    border-color: #a4cfb6;
+}
+
+#study-mode input:checked::before {
+    transform: scale(1);
+}
+
+#study-mode input:focus-visible {
+    outline: 2px solid #a4cfb6;
+    outline-offset: 3px;
 }
 
 @media (max-width: 768px), (max-width: 1024px) and (orientation: landscape) and (hover: none) and (pointer: coarse) {

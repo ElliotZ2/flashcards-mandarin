@@ -7,7 +7,7 @@
 
     <title>Mandarin Flashcards</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=prompt-mode-2">
 </head>
 
 <body>
@@ -18,10 +18,17 @@
         <div id="sidebar-content">
             <fieldset id="study-mode">
                 <legend>Prompt mode</legend>
-                <label><input type="radio" name="prompt-mode" value="chinese"> Characters</label>
-                <label><input type="radio" name="prompt-mode" value="translation"> English + Pinyin</label>
-                <label><input type="radio" name="prompt-mode" value="mixed" checked> Mixed</label>
-                <p>Mixed randomly chooses one side per card.</p>
+                <div class="study-mode-options">
+                    <div class="study-mode-option">
+                        <label><input type="radio" name="prompt-mode" value="chinese"><span>Characters</span></label>
+                    </div>
+                    <div class="study-mode-option">
+                        <label><input type="radio" name="prompt-mode" value="translation"><span>English + Pinyin</span></label>
+                    </div>
+                    <div class="study-mode-option">
+                        <label><input type="radio" name="prompt-mode" value="mixed" checked><span>Mixed</span></label>
+                    </div>
+                </div>
             </fieldset>
             <h2>Groups</h2>
             <button id="toggle-groups-button">Select All</button>
