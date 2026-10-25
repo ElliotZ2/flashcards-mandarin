@@ -1709,6 +1709,61 @@
           "english": "a personal name"
         }
       ]
+    },
+    {
+      "name": "L5D2",
+      "words": [
+        {
+          "chinese": "玩(儿)",
+          "pinyin": "wán(r)",
+          "english": "to have fun; to play"
+        },
+        {
+          "chinese": "了",
+          "pinyin": "le",
+          "english": "a dynamic particle"
+        },
+        {
+          "chinese": "图书馆",
+          "pinyin": "túshūguǎn",
+          "english": "library"
+        },
+        {
+          "chinese": "一起",
+          "pinyin": "yìqǐ",
+          "english": "together"
+        },
+        {
+          "chinese": "聊天(儿)",
+          "pinyin": "liáo tiān(r)",
+          "english": "to chat"
+        },
+        {
+          "chinese": "聊",
+          "pinyin": "liáo",
+          "english": "to chat"
+        },
+        {
+          "chinese": "天",
+          "pinyin": "tiān",
+          "english": "sky"
+        },
+        {
+          "chinese": "才",
+          "pinyin": "cái",
+          "english": "not until; only then"
+        },
+        {
+          "chinese": "回家",
+          "pinyin": "huí jiā",
+          "english": "to go home"
+        },
+        {
+          "chinese": "回",
+          "pinyin": "huí",
+          "english": "to return"
+        }
+      ]
     }
   ]
 }
