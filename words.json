@@ -1764,6 +1764,196 @@
           "english": "to return"
         }
       ]
+    },
+    {
+      "name": "MT1",
+      "words": [
+        {
+          "chinese": "加拿大",
+          "pinyin": "Jiānádà",
+          "english": "Canada"
+        },
+        {
+          "chinese": "日本",
+          "pinyin": "Rìběn",
+          "english": "Japan"
+        },
+        {
+          "chinese": "韩国",
+          "pinyin": "Hánguó",
+          "english": "South Korea"
+        },
+        {
+          "chinese": "到",
+          "pinyin": "dào",
+          "english": "indicates successfully reaching a result, as in seeing or hearing"
+        },
+        {
+          "chinese": "珍珠",
+          "pinyin": "zhēnzhū",
+          "english": "pearl; tapioca pearl in bubble tea"
+        },
+        {
+          "chinese": "奶",
+          "pinyin": "nǎi",
+          "english": "milk"
+        },
+        {
+          "chinese": "品牌",
+          "pinyin": "pǐnpái",
+          "english": "brand"
+        },
+        {
+          "chinese": "附近",
+          "pinyin": "fùjìn",
+          "english": "nearby; in the vicinity of"
+        },
+        {
+          "chinese": "店",
+          "pinyin": "diàn",
+          "english": "shop; store"
+        },
+        {
+          "chinese": "从",
+          "pinyin": "cóng",
+          "english": "from"
+        },
+        {
+          "chinese": "大约",
+          "pinyin": "dàyuē",
+          "english": "approximately; about"
+        },
+        {
+          "chinese": "把",
+          "pinyin": "bǎ",
+          "english": "places the object before the action done to it"
+        },
+        {
+          "chinese": "粉圆",
+          "pinyin": "fěnyuán",
+          "english": "tapioca balls; tapioca pearls"
+        },
+        {
+          "chinese": "放",
+          "pinyin": "fàng",
+          "english": "to place; to put"
+        },
+        {
+          "chinese": "里",
+          "pinyin": "lǐ",
+          "english": "inside; in"
+        },
+        {
+          "chinese": "又",
+          "pinyin": "yòu",
+          "english": "also; again; both…and… in 又…又…"
+        },
+        {
+          "chinese": "种",
+          "pinyin": "zhǒng",
+          "english": "kind; type; classifier for kinds or types"
+        },
+        {
+          "chinese": "软",
+          "pinyin": "ruǎn",
+          "english": "soft"
+        },
+        {
+          "chinese": "甜",
+          "pinyin": "tián",
+          "english": "sweet"
+        },
+        {
+          "chinese": "主要",
+          "pinyin": "zhǔyào",
+          "english": "mainly; main"
+        },
+        {
+          "chinese": "些",
+          "pinyin": "xiē",
+          "english": "some; a few; classifier for an indefinite quantity"
+        },
+        {
+          "chinese": "后来",
+          "pinyin": "hòulái",
+          "english": "later; afterward"
+        },
+        {
+          "chinese": "越来越",
+          "pinyin": "yuè lái yuè",
+          "english": "increasingly; more and more"
+        },
+        {
+          "chinese": "台湾",
+          "pinyin": "Táiwān",
+          "english": "Taiwan"
+        },
+        {
+          "chinese": "传",
+          "pinyin": "chuán",
+          "english": "to spread; to transmit; to pass on"
+        },
+        {
+          "chinese": "到了",
+          "pinyin": "dào le",
+          "english": "reached; arrived; in 传到了, spread to"
+        },
+        {
+          "chinese": "世界各地",
+          "pinyin": "shìjiè gèdì",
+          "english": "all over the world; places around the world"
+        },
+        {
+          "chinese": "以前",
+          "pinyin": "yǐqián",
+          "english": "before; previously; in the past"
+        },
+        {
+          "chinese": "一般",
+          "pinyin": "yìbān",
+          "english": "generally; usually"
+        },
+        {
+          "chinese": "除了",
+          "pinyin": "chúle",
+          "english": "besides; apart from"
+        },
+        {
+          "chinese": "水果",
+          "pinyin": "shuǐguǒ",
+          "english": "fruit"
+        },
+        {
+          "chinese": "东西",
+          "pinyin": "dōngxi",
+          "english": "thing; things; stuff"
+        },
+        {
+          "chinese": "饮料",
+          "pinyin": "yǐnliào",
+          "english": "beverage; drink"
+        },
+        {
+          "chinese": "甚至",
+          "pinyin": "shènzhì",
+          "english": "even"
+        },
+        {
+          "chinese": "这些",
+          "pinyin": "zhèxiē",
+          "english": "these"
+        },
+        {
+          "chinese": "文化",
+          "pinyin": "wénhuà",
+          "english": "culture"
+        },
+        {
+          "chinese": "部分",
+          "pinyin": "bùfen",
+          "english": "part; portion"
+        }
+      ]
     }
   ]
 }
