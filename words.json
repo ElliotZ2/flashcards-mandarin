@@ -1954,6 +1954,181 @@
           "english": "part; portion"
         }
       ]
+    },
+    {
+      "name": "L6D1",
+      "words": [
+        {
+          "chinese": "给",
+          "pinyin": "gěi",
+          "english": "to give"
+        },
+        {
+          "chinese": "打电话",
+          "pinyin": "dǎ diànhuà",
+          "english": "to make a phone call"
+        },
+        {
+          "chinese": "电话",
+          "pinyin": "diànhuà",
+          "english": "telephone"
+        },
+        {
+          "chinese": "喂",
+          "pinyin": "wéi/wèi",
+          "english": "hello in a phone call"
+        },
+        {
+          "chinese": "在",
+          "pinyin": "zài",
+          "english": "at; in; on"
+        },
+        {
+          "chinese": "您",
+          "pinyin": "nín",
+          "english": "you; honorific for 你"
+        },
+        {
+          "chinese": "就",
+          "pinyin": "jiù",
+          "english": "precisely; exactly"
+        },
+        {
+          "chinese": "哪",
+          "pinyin": "nǎ",
+          "english": "which"
+        },
+        {
+          "chinese": "位",
+          "pinyin": "wèi",
+          "english": "polite measure word for people"
+        },
+        {
+          "chinese": "下午",
+          "pinyin": "xiàwǔ",
+          "english": "afternoon"
+        },
+        {
+          "chinese": "时间",
+          "pinyin": "shíjiān",
+          "english": "time"
+        },
+        {
+          "chinese": "问题",
+          "pinyin": "wèntí",
+          "english": "question"
+        },
+        {
+          "chinese": "要",
+          "pinyin": "yào",
+          "english": "to want"
+        },
+        {
+          "chinese": "开会",
+          "pinyin": "kāi huì",
+          "english": "to have a meeting"
+        },
+        {
+          "chinese": "开",
+          "pinyin": "kāi",
+          "english": "to open; to hold (a meeting, party, etc.)"
+        },
+        {
+          "chinese": "会",
+          "pinyin": "huì",
+          "english": "meeting"
+        },
+        {
+          "chinese": "上午",
+          "pinyin": "shàngwǔ",
+          "english": "morning"
+        },
+        {
+          "chinese": "节",
+          "pinyin": "jié",
+          "english": "measure word for class periods"
+        },
+        {
+          "chinese": "课",
+          "pinyin": "kè",
+          "english": "class"
+        },
+        {
+          "chinese": "年级",
+          "pinyin": "niánjí",
+          "english": "grade in school"
+        },
+        {
+          "chinese": "考试",
+          "pinyin": "kǎo shì",
+          "english": "to give or take a test; test"
+        },
+        {
+          "chinese": "考",
+          "pinyin": "kǎo",
+          "english": "to give or take a test"
+        },
+        {
+          "chinese": "试",
+          "pinyin": "shì",
+          "english": "test (noun); to try"
+        },
+        {
+          "chinese": "以后",
+          "pinyin": "yǐhòu",
+          "english": "after; from now on; later on"
+        },
+        {
+          "chinese": "空儿",
+          "pinyin": "kòngr",
+          "english": "free time"
+        },
+        {
+          "chinese": "要是",
+          "pinyin": "yàoshi",
+          "english": "if"
+        },
+        {
+          "chinese": "方便",
+          "pinyin": "fāngbiàn",
+          "english": "convenient"
+        },
+        {
+          "chinese": "到",
+          "pinyin": "dào",
+          "english": "to go to; to arrive"
+        },
+        {
+          "chinese": "办公室",
+          "pinyin": "bàngōngshì",
+          "english": "office"
+        },
+        {
+          "chinese": "行",
+          "pinyin": "xíng",
+          "english": "all right; O.K."
+        },
+        {
+          "chinese": "等",
+          "pinyin": "děng",
+          "english": "to wait"
+        },
+        {
+          "chinese": "别",
+          "pinyin": "bié",
+          "english": "don't"
+        },
+        {
+          "chinese": "客气",
+          "pinyin": "kèqi",
+          "english": "polite; courteous"
+        },
+        {
+          "chinese": "常老师",
+          "pinyin": "Cháng lǎoshī",
+          "english": "Teacher Chang"
+        }
+      ]
     }
   ]
 }
