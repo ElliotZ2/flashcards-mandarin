@@ -7,7 +7,7 @@
 
     <title>Mandarin Flashcards</title>
 
-    <link rel="stylesheet" href="style.css?v=prompt-mode-2">
+    <link rel="stylesheet" href="style.css?v=focus-1">
 </head>
 
 <body>
@@ -30,6 +30,13 @@
                     </div>
                 </div>
             </fieldset>
+            <section id="focus-options" aria-labelledby="focus-heading">
+                <h2 id="focus-heading">Focus words</h2>
+                <p>Give tricky words extra practice.</p>
+                <button id="view-focus-button" type="button">View focus list (<span id="focus-count">0</span>)</button>
+                <button id="add-focus-button" type="button">Add from selected groups</button>
+            </section>
+            <p id="settings-status" role="status" hidden></p>
             <h2>Groups</h2>
             <button id="toggle-groups-button">Select All</button>
             <div id="groups-container"></div>
@@ -52,13 +59,34 @@
             </div>
         </div>
 
-        <button id="reveal-button">
-            Reveal
-        </button>
+        <div id="card-actions">
+            <button id="reveal-button" type="button" disabled>Reveal</button>
+            <button id="focus-button" type="button" aria-pressed="false" disabled>Focus</button>
+        </div>
 
     </main>
 
-    <script src="script.js"></script>
+    <dialog id="focus-dialog" aria-labelledby="focus-dialog-title" aria-describedby="focus-dialog-description">
+        <div class="focus-dialog-header">
+            <h2 id="focus-dialog-title">Focus words</h2>
+            <button id="close-focus-dialog" type="button" aria-label="Close focus words">✕</button>
+        </div>
+        <p id="focus-dialog-description">Check words for extra practice. Focus words get 3× selection weight in your selected groups.</p>
+        <div class="focus-view-options" role="group" aria-label="Words to show">
+            <button id="focus-view-saved" type="button" aria-pressed="true">Focus list</button>
+            <button id="focus-view-selected" type="button" aria-pressed="false">Selected groups</button>
+        </div>
+        <label class="focus-search-label" for="focus-search">Search words</label>
+        <input id="focus-search" type="search" placeholder="Characters, pinyin, or English" autocomplete="off">
+        <p id="focus-list-summary" role="status"></p>
+        <div id="focus-word-list" role="group" aria-label="Words and focus selections"></div>
+        <div class="focus-dialog-footer">
+            <span id="focus-save-status" role="status">Changes save automatically.</span>
+            <button id="focus-dialog-done" type="button">Done</button>
+        </div>
+    </dialog>
+
+    <script src="script.js?v=focus-1"></script>
 
 </body>
 
