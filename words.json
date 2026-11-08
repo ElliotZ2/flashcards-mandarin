@@ -2129,6 +2129,81 @@
           "english": "Teacher Chang"
         }
       ]
+    },
+    {
+      "name": "L6D2",
+      "words": [
+        {
+          "chinese": "下个",
+          "pinyin": "xià ge",
+          "english": "next one"
+        },
+        {
+          "chinese": "下",
+          "pinyin": "xià",
+          "english": "below; next"
+        },
+        {
+          "chinese": "中文",
+          "pinyin": "Zhōngwén",
+          "english": "Chinese language"
+        },
+        {
+          "chinese": "帮",
+          "pinyin": "bāng",
+          "english": "to help"
+        },
+        {
+          "chinese": "准备",
+          "pinyin": "zhǔnbèi",
+          "english": "to prepare"
+        },
+        {
+          "chinese": "练习",
+          "pinyin": "liànxí",
+          "english": "to practice"
+        },
+        {
+          "chinese": "说",
+          "pinyin": "shuō",
+          "english": "to say; to speak"
+        },
+        {
+          "chinese": "啊",
+          "pinyin": "a",
+          "english": "sentence-final particle (exclamation, question, etc.)"
+        },
+        {
+          "chinese": "但是",
+          "pinyin": "dànshì",
+          "english": "but"
+        },
+        {
+          "chinese": "得",
+          "pinyin": "děi",
+          "english": "must; to have to"
+        },
+        {
+          "chinese": "跟",
+          "pinyin": "gēn",
+          "english": "with"
+        },
+        {
+          "chinese": "见面",
+          "pinyin": "jiàn miàn",
+          "english": "to meet up; to meet with"
+        },
+        {
+          "chinese": "面",
+          "pinyin": "miàn",
+          "english": "face"
+        },
+        {
+          "chinese": "回来",
+          "pinyin": "huí lai",
+          "english": "to come back"
+        }
+      ]
     }
   ]
 }
