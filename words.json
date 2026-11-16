@@ -2204,6 +2204,131 @@
           "english": "to come back"
         }
       ]
+    },
+    {
+      "name": "L7D1",
+      "words": [
+        {
+          "chinese": "说话",
+          "pinyin": "shuō huà",
+          "english": "to talk"
+        },
+        {
+          "chinese": "话",
+          "pinyin": "huà",
+          "english": "word; speech"
+        },
+        {
+          "chinese": "上个",
+          "pinyin": "shàng ge",
+          "english": "the previous one"
+        },
+        {
+          "chinese": "得",
+          "pinyin": "de",
+          "english": "a structural particle placed after a verb"
+        },
+        {
+          "chinese": "复习",
+          "pinyin": "fùxí",
+          "english": "review; to review"
+        },
+        {
+          "chinese": "写",
+          "pinyin": "xiě",
+          "english": "to write"
+        },
+        {
+          "chinese": "慢",
+          "pinyin": "màn",
+          "english": "slow"
+        },
+        {
+          "chinese": "枝",
+          "pinyin": "zhī",
+          "english": "measure word for long, thin, inflexible objects like pens, rifles, etc."
+        },
+        {
+          "chinese": "笔",
+          "pinyin": "bǐ",
+          "english": "pen"
+        },
+        {
+          "chinese": "张",
+          "pinyin": "zhāng",
+          "english": "measure word for flat objects, paper, pictures, etc."
+        },
+        {
+          "chinese": "纸",
+          "pinyin": "zhǐ",
+          "english": "paper"
+        },
+        {
+          "chinese": "教",
+          "pinyin": "jiāo",
+          "english": "to teach"
+        },
+        {
+          "chinese": "怎么",
+          "pinyin": "zěnme",
+          "english": "how; how come"
+        },
+        {
+          "chinese": "懂",
+          "pinyin": "dǒng",
+          "english": "to understand"
+        },
+        {
+          "chinese": "真",
+          "pinyin": "zhēn",
+          "english": "real; really"
+        },
+        {
+          "chinese": "哪里",
+          "pinyin": "nǎli",
+          "english": "where"
+        },
+        {
+          "chinese": "预习",
+          "pinyin": "yùxí",
+          "english": "to preview"
+        },
+        {
+          "chinese": "学",
+          "pinyin": "xué",
+          "english": "to study"
+        },
+        {
+          "chinese": "第",
+          "pinyin": "dì",
+          "english": "prefix for ordinal numbers"
+        },
+        {
+          "chinese": "语法",
+          "pinyin": "yǔfǎ",
+          "english": "grammar"
+        },
+        {
+          "chinese": "容易",
+          "pinyin": "róngyì",
+          "english": "easy"
+        },
+        {
+          "chinese": "生词",
+          "pinyin": "shēngcí",
+          "english": "new words; vocabulary"
+        },
+        {
+          "chinese": "汉字",
+          "pinyin": "hànzì",
+          "english": "Chinese characters"
+        },
+        {
+          "chinese": "难",
+          "pinyin": "nán",
+          "english": "difficult"
+        }
+      ]
     }
   ]
 }
